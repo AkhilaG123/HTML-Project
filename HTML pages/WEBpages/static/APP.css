@@ -1,0 +1,283 @@
+#header1{
+        background-color:#DDDDDD;
+        }
+#head1{
+       margin-left:900px;
+
+        }
+.top-bar{
+        background-color:#fefefe;
+        }
+.top-bar ul{
+           background-color:#fefefe;
+           }
+.menu-text{
+          font-weight:normal;
+          }
+
+hr{
+  max-width:150rem;
+  border-bottom:2px solid red;
+
+  }
+
+.text-top .head1{
+    color: white;
+    font-size: 40px;
+position: absolute;
+   top: 230px;
+   width: 100%;
+ text-align: center;
+
+}
+
+.text-top .head2{
+    color: white;
+    font-size: 15px;
+position: absolute;
+   top: 290px;
+   width: 100%;
+ text-align: center;
+
+}
+
+.text-top .head3{
+    color: white;
+position: absolute;
+   top: 380px;
+   width: 100%;
+ text-align: center;
+
+}
+.text-top .head4{
+    text-align: center;
+position: absolute;
+   top: 500px;
+    background-color: #ff0000;
+    border: none;
+    color: white;
+    padding: 8px 6px;
+    font-size: 10px;
+    margin: 25px 600px;
+}
+
+.text-top .head5{
+position: absolute;
+   top: 550px;
+    border: none;
+    color: white;
+    padding: 10px 60px;
+    font-size: 12px;
+display : block;
+float:left;
+list-style:none;
+margin:20px 350px;
+
+}
+
+
+
+.head4{
+    background-color: #ff0000;
+    border: none;
+    color: white;
+    padding: 8px 22px;
+    font-size: 10px;
+    }
+
+.head6{
+    background-color: #ff0000;
+    border: none;
+    color: white;
+    padding: 12px 22px;
+    font-size: 10px;
+    }
+
+.textbox1 {
+     height:35px;
+   width: 200px;
+  }
+
+.textbox2 {
+    height:35px;
+   width: 375px;
+  }
+
+.textbox3 {
+     height:35px;
+   width: 150px;
+  }
+
+
+.text-top .nav1 {
+position: absolute;
+width:100%;
+height:75px;
+top:720px;
+background:rgba(255,255,255,0.5);
+  margin: 20px 0px;
+}
+nav ul{
+
+}
+
+nav li {
+    text-align: center;
+display : block;
+float:left;
+list-style:none;
+padding:2px;
+margin:3px 10px;
+}
+
+.tabs-title{
+padding:20px 23px;
+background-color: #000000;
+}
+
+
+.pintab{
+margin:20px 400px;
+position:absolute;
+top:1320px;
+float:right;
+font-size:12px;
+}
+
+
+.div1 {
+    width: 400px;
+    height: 700px;
+    padding: 25px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px 3px #C0C0C0;
+}
+.table1 {
+    width: 350px;
+    height: 150px;
+    padding: 20px;
+}
+.td1{
+padding: 10px;
+}
+.p1
+{
+font-size:12px;
+}
+div.vertical-line{
+  width: 1px;
+  background-color: #C0C0C0;
+  height: 100%;
+  float: left;
+
+}
+
+#six{
+    margin-top:10px;
+    border:1px solid grey;
+    padding:25px;
+    }
+
+.pic{
+    position:relative;
+    }
+.imagetext1{
+          position:absolute;
+          text-align:center;
+          font-size:15px;
+          margin-left:65px;
+          top:100px;
+          color:white;
+          overflow:visible
+           }
+.imagetext1{
+          position:absolute;
+          text-align:center;
+          font-size:15px;
+          margin-left:65px;
+          top:100px;
+          color:white;
+          overflow:visible
+           }
+.imagetext2{
+          position:absolute;
+          text-align:center;
+          font-size:15px;
+          margin-left:65px;
+          top:100px;
+          color:white;
+          overflow:visible
+           }
+.imagetext3{
+          position:absolute;
+          text-align:center;
+          font-size:15px;
+          margin-left:30px;
+          top:100px;
+          color:white;
+          overflow:visible
+           }
+.imagetext4{
+          position:absolute;
+          text-align:center;
+          font-size:15px;
+          margin-left:45px;
+          top:100px;
+          color:white;
+          overflow:visible
+           }
+#image1{
+       margin-left:120px;
+       margin-top:10px;
+       max-width=150%;
+       }
+
+
+#image2{
+       margin-left:10px;
+       margin-top:-15px;
+       }
+h7{
+   font-size:18px;
+   margin-left:160px;
+
+   }
+
+p{
+  font-size:15px;
+  margin-left:160px;
+  }
+#h-5{
+    font-size:12px;
+    margin-left:750px;
+    }
+#testimonials{
+             background-color:grey;
+             }
+#TESTIMONIAL{
+            padding:50px;
+            }
+
+h1{
+  font-size:18px;
+  margin-left:50px;
+
+  }
+p1{
+   margin-left:50px;
+   font-size:14px;
+   color:#111111;
+   }
+#end{
+    background-color:
+
+    }
+#visa{
+max-width:50%
+    }
+.footer{
+       color:black;
+       background:#F5F5DC; }
+a{
+color:black;
+}

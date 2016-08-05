@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CF WEB PAGE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/css/foundation.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/js/vendor/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/js/foundation.min.js"></script>
+    <link rel=stylesheet href="/static/APP.css">
+
+<style>
+#container {
+  height: 400px;
+  width: 400px;
+  position: relative;
+}
+#image {
+  position: absolute;
+  left: 0;
+  top: 0;
+width:500;
+height:500;
+}
+#text {
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  left: 150px;
+  top: 350px;
+}
+
+
+
+</style>
+<script>
+      $(document).ready(function() {
+         $(document).foundation();
+      })
+   </script>
+
+</head>
+<body>
+
+   <div id="body-wrapper">
+    <div class="off-canvas-wrap">
+        <div id="header1" >
+            <ul class="horizontal menu" id="head1">
+                  <li><a href="tel:040-660660454" class="header-call" style="color:black;"><img src="/static/phone-icon.svg" style="width:20px;height:20px;margin-left:450px;">040-660660454</a></li>
+                  <li><a href="#" style="color:black;">|</a></li>
+                  <li><a href="mailto:wecare@customfurnish.com" class="header-mail" style="color:black;"><img src="/static/fi-mail.svg" style="width:20px;height:20px;">
+                                                wecare@customfurnish.com</a></li>
+            </ul>
+
+        </div>
+        <div class="columns large-7 medium-4  headerSection">
+            <div id="header2">
+                <img src="http://d32e2cg1dqah35.cloudfront.net/static/images/miscellaneous/custom-furnish.png">
+            </div>
+        </div>
+         <div class="columns large-5 medium-12" >
+             <div class="top-bar">
+               <div class="top-bar">
+                <ul class="dropdown menu" data-dropdown-menu>
+                  <li class="menu-text" style="font-family:courier;">HOME</li>
+                  <li class="menu-text" style="font-family:courier;">DESIGN SERVICE</li>
+                  <li class="menu-text" style="font-family:courier;">TESTIMONIALS</li>
+                   <li class="menu-text" style="font-family:courier;">SAMPLE PROJECTS</li>
+                  <li class="menu-text" style="font-family:courier;">FAQ</li>
+
+                </ul>
+             </div>
+         </div>
+        </div>
+        <hr>
+        <div>
+           <center><h4>PACKAGES</h4></center>
+       </div>
+
+<br>
+<div class="row">
+  <div class="large-2 columns" style="border-bottom:0.5px solid #FFFFFF"></div>
+  <div class="large-8 columns" style="border-bottom:0.5px solid #C0C0C0"></div>
+  <div class="large-2 columns" style="border-bottom:0.5px solid #FFFFFF"></div>
+</div>
+
+<br>
+
+<div class="row">
+<div class="small=2 columns"></div>
+  <div class="small-5 columns" align="right" ><div class="div1">
+<tborder>
+<table border="1" class="table1" rules="cols">
+  <tr class="tr1">
+    <th><center><font size="2" color="red">TYPE OF PACKAGE</font> </center><hr></th>
+    <th><center><font size="2" color="red">PRICE </font></center> <hr></th>
+  </tr>
+  <tr class="tr1">
+    <td class="td1"><font size="2">&nbsp;&nbsp;&nbsp;1-BHK</font></td>
+    <td class="td1"><center><font size="2">Rs 20,000/-</center></font></td>
+  </tr>
+  <tr class="tr1">
+    <td class="td1"><font size="2">&nbsp;&nbsp;&nbsp;2-BHK</font></td>
+    <td class="td1"><font size="2"><center>Rs 30,000/-</center></font></td>
+  </tr>
+
+<tr class="tr1">
+    <td class="td1"><font size="2">&nbsp;&nbsp;&nbsp;3-BHK</font></td>
+    <td class="td1"><center><font size="2">Rs 45,000/-</center></font></td>
+  </tr>
+<tr class="tr1">
+    <td class="td1"><font size="2">&nbsp;&nbsp;&nbsp;4-BHK</font></td>
+    <td class="td1"><center><font size="2">Rs 60,000/-</center></font></td>
+  </tr>
+
+<tr class="tr1">
+    <td class="td1"><font size="2">&nbsp;&nbsp;&nbsp;VILLA</font></td>
+    <td class="td1"><center><font size="2">Rs 75,000/-</center></font></td>
+  </tr>
+</table>
+<br>
+<br><div class="p1" align="left">
+Includes Space layout & Furniture design,3D renders, Walkthrough,BOM and Engineering drawings,Estimate
+</div>
+
+<br><div class="p1" align="left">
+The designs can be revised till you are fully satisfied.
+</div>
+<br>
+<div class="p1" align="left">We Will Provide Manufacture & Install</div>
+</tborder>
+
+</div>
+</div>
+
+<div class="vertical-line" style="height: 500px;" />
+  <div class="small-4 columns" align="centre"  >
+<div id="six" class="div1" align="centre">
+    <p><font size="1">SUBMIT YOUR DETAILS WITH YOUR FLOOR PLAN</font></p>
+    <form >
+        <input type="text" placeholder="NAME">
+        <input type="text" placeholder="EMAIL">
+        <input type="text" placeholder="PHONE">
+        <div class="row">
+            <div class="columns large-6"><input class="textbox3" type="text" placeholder="CITY"></div>
+            <div class="columns large-6"><input type="number" class="textbox3" placeholder="PINCODE"></div>
+        </div>
+        <input type="text" list="pack" placeholder="SELECTPAKAGE">
+        <datalist id="pack">
+            <option>1-BHK</option>
+            <option>2-BHK</option>
+            <option>3-BHK</option>
+            <option>4-BHK</option>
+            <option>VILLA</option>
+        </datalist>
+        <div class="row">
+            <div class="columns large-8 ">
+                <input type="text" placeholder="UPLOAD DOCS">
+            </div>
+            <div class="columns large-4" align="left">
+                <a href="#" style="background-color: GREY;color:black;" class="head5">UPLOAD</a>
+            </div>
+        </div>
+        <textarea placeholder="NOTES"></textarea><br>
+        <div class="row">
+            <div class="columns large-5">
+<div  class="head4">BOOK NOW</div>
+            </div>
+            <div class="columns large-7">
+                <a style="text-decoration:underline"><font size="2">NEED ASSISTANCE?</font></a>
+            </div>
+        </div>
+    </form>
+   </div>
+      </div>
+    </div>
+        <br>
+        <br>
+
+</div>
+          <br>
+       <br>
+       <div>
+<center><h5 style="font-weight:bold">WHAT WE OFFER</h5></center>
+</div>
+<div style="border-bottom:1px solid grey;width:900px;margin-left:200px;"></div>
+       <br>
+       <br>
+     <div class="row">
+         <div class="columns large-12">
+             <div class="columns large-6 right">
+                 <div id="image1"><img src="/static/image1.jpg" alt="image1"></div>
+             </div>
+             <div class="columns large-6">
+                 <div id="image2"><img src="/static/image2.jpg" alt="image2"></div>
+             </div>
+          </div>
+         <div id="h-5" style="align:left">*AVAILABLE ONLY IN BANGALORE,HYDERABAD</div>
+     </div>
+
+
+<br>
+<br>
+
+<div>
+<center><h5 style="font-weight:bold">WHY US?</h5></center>
+</div>
+<div style="border-bottom:1px solid grey;width:900px;margin-left:200px;"></div>
+<div class="row" style="margin:50px;">
+    <div class="large-12 columns">
+        <div class="large-3 columns">
+            <div class="pic">
+                <img src="/static/circle-2.png" alt="circle-1">
+                <p class="imagetext1"><strong>TEXT</strong></p>
+            </div>
+                <font size="2"> 100+ HIGHLY QUALIFIED INTERIOR DESIGNERS</font>
+        </div>
+        <div class="large-3 columns">
+            <div class="pic">
+                <img src="/static/circle-3.png" alt="circle-2">
+                <div class="imagetext2"><strong>CUSTOMIZED <br> DESIGNS</strong></div>
+            </div>
+                <font size="2">GET YOUR HOME INTERIORS DESIGNED ACCORDING TO YOUR PREFERENCES</font>
+        </div>
+        <div class="large-3 columns">
+            <div class="pic">
+                <img src="/static/circle-1.png" alt="circle-3">
+                <div class="imagetext3"><strong>3D <br>VISUALIZATION</strong></div>
+            </div>
+                <center><font size="2">VISUALIZE YOUR HOME BEFORE<br>YOU DECIDE TO IMPLIMENT</font></center>
+        </div>
+        <div class="large-3 columns">
+            <div class="pic">
+                 <img src="/static/circle-4.png" alt="circle-4">
+                 <div class="imagetext4"><strong>INTEGRATED <br> DELIVERY</strong></div>
+            </div>
+                 <font size="2">IN-HOUSE CAPABILITIES TO DESIGN,MANUFACTURE & INSTALL THE DESIGNS PROPOSED</font>
+        </div>
+    </div>
+</div>
+
+<br>
+
+<div>
+<center><h5 style="font-weight:bold">SAMPLE PROJECT</h5></center>
+</div>
+<div style="border-bottom:1px solid white;width:900px;margin-left:200px"></div>
+       <div class="row">
+           <div class="flex-video widescreen vimeo">
+  <iframe src="http://player.vimeo.com/video/60122989" width="400" height="225" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</div>
+       </div>
+
+       <br>
+       <br>
+       <div>
+       <center><h5 style="font-weight:bold">GALLERY</h5></center>
+       </div>
+       <div style="border-bottom:1px solid #c0c0c0;width:900px;margin-left:200px;"></div>
+       <br>
+       <div class="row">
+           <div class="large-12 columns">
+               <div class="large-6 columns"><img src="/static/testimonial2.jpg" alt="gallery"></div>
+
+           <div class="large-6 columns">
+               <div class="row">
+                   <div class="large-6 columns"><img src="/static/testimonial1.jpg" alt="gallery"></div>
+                   <div class="large-6 columns"><img src="/static/testimonial1.jpg" alt="gallery"></div>
+               </div>
+               <div class="row">
+                   <div class="large-6 columns"><img src="/static/testimonial1.jpg" alt="gallery"></div>
+                   <div class="large-6 columns"><img src="/static/testimonial1.jpg" alt="gallery"></div>
+               </div>
+           </div>
+       </div>
+      </div>
+       <br>
+
+ <div id="testimonials">
+       <div>
+           <br>
+           <br>
+       <center><h5 style="font-weight:bold">TESTIMONIALS</h5></center>
+       </div>
+       <div style="border-bottom:1px solid white;width:900px;margin-left:200px;"></div>
+       <br>
+     <br>
+   <div id="TESTIMONIAL">
+       <div class="row">
+           <div class="large-12 columns">
+               <div class="large-3 columns">
+                   <img src="/static/testimonial1.jpg" alt="testimonial1"><center style="border: 1px solid white;background-color:white;">
+                   <font size="2">
+                   SURESH & MEENAKSHI</font><br>
+                   <font size="1"> WE PLACE DEFULL-HOUSE FURNITURE
+                       ORDER WITH CUSTOMFURNITURE,THEY HAVE BEAUTYFULLY FURNISHED MY HOME</font></center>
+               </div>
+               <div class="large-3 columns">
+                   <img src="/static/testimonial2.jpg" alt="testimonial2"><center style="border: 1px solid white;background-color:white;">
+                   <font size="2">
+                   SHASTRI</font><br>
+                   <font size="1"> WE PLACE DEFULL-HOUSE FURNITURE
+                       ORDER WITH CUSTOMFURNITURE,THEY HAVE BEAUTYFULLY FURNISHED MY HOME</font></center>
+               </div>
+               <div class="large-3 columns">
+                   <img src="/static/testimonial3.jpg" alt="testimonial3"><center style="border: 1px solid white;background-color:white;"><font size="2">
+                   G VENKATA RAMANA RAO</font><br>
+                   <font size="1"> WE PLACE DEFULL-HOUSE FURNITURE
+                       ORDER WITH CUSTOMFURNITURE,THEY HAVE BEAUTYFULLY FURNISHED MY HOME</font></center>
+               </div>
+               <div class="large-3 columns">
+                   <img src="/static/testimonial4.jpg" alt="testimonial4"><center style="border: 1px solid white;background-color:white;"><font size="2">
+                   MEERA SRINIVAS</font><br>
+                   <font size="1"> WE PLACE DEFULL-HOUSE FURNITURE
+                       ORDER WITH CUSTOMFURNITURE,THEY HAVE BEAUTYFULLY FURNISHED MY HOME</font></center>
+               </div>
+
+           </div>
+       </div>
+   </div>
+ </div>
+       <br>
+       <br>
+<div>
+<center><h5 style="font-weight:bold">FAQ</h5></center>
+</div>
+       <br>
+       <br>
+<div style="border-bottom:1px solid grey;width:900px;margin-left:200px;"></div>
+<br>
+<br>
+
+<h7 style="font-weight:bold">How do i book an order with customfurnish.com?</h7><br>
+  <p>Ans:you can book an order with us online by clicking on the BOOK NOW button and furnishing all the mandatory information & files.</p><br>
+<h7 style="font-weight:bold">Is the booking amount refundable?</h7><br>
+   <p>Ans:If you are opting for Design only package,then the amount you pay is Design Fee and it is not refundable.However if you select Design and Execute package,the amount
+       you pay at the time of booking the order will be absorbed in the total project cost</p><br>.
+<h7 style="font-weight:bold">Can I switch the package I select at later point?</h7><br>
+     <p>Ans:You are free to switch from one package to other at any time.If you decide to switch from Design only to Design & Execute your amount will be absorbed in the total project cost.
+       However if you sign-up for Design & Execute package and later decide to avail our Design Services,we will not be providing you the Designs,BOM & Engineering Drawings.</p>
+
+  <footer class="footer" >
+    <div class="row">
+        <div class="columns large-3">
+            <h5><a href="#" >CUSTOMFURNISH</a></h5><br>
+            <a href="#">About Us</a><br>
+            <a href="#">Terms&Conditions</a><br>
+            <a href="#">Privacy Policy</a><br>
+            <a href="#">Delivery & Return Policy</a>
+        </div>
+        <div class="columns large-3">
+            <h5><a href="#" >COLLECTION</a></h5><br>
+            <a href="#">Sofas</a><br>
+            <a href="#">Waedrobes</a><br>
+            <a href="#">Kitchens</a><br>
+        </div>
+        <div class="columns large-3">
+            <h5><a href="#" >FOLLOW US</a></h5><br>
+            <a href="#">Twitter</a><br>
+            <a href="#">Facebook</a><br>
+            <a href="#">Pintrest</a><br>
+            <a href="#">Google</a><br>
+        </div>
+        <div class="columns large-3">
+            <h5><a href="#" >CONTACT US</a></h5><br>
+            <a href="tel:040-660660454" class="header-call"><img src="/static/fi-telephone.svg" style="width:20px;height:20px;">040-660660454</a><br>
+            <a href="mailto:wecare@customfurnish.com" class="header-mail"><img src="/static/fi-mail.svg" style="width:20px;height:20px;">wecare@customfurnish.com</a><br>
+
+        </div>
+        <hr>
+    </div>
+    <div class="row" id="visa">
+        <div class="columns large-1 large-offset-3 left">
+            <a href="#"><img src="/static/VISA img.jpg" style="width:50px;height:40px;"></a>
+        </div>
+        <div class="columns large-1 left">
+            <a href="#"><img src="/static/maestro icon.jpg" style="width:50px;height:40px;"></a>
+        </div>
+        <div class="columns large-1 left">
+            <a href="#"><img src="/static/mastercard icon.png" style="width:50px;height:40px;"></a>
+        </div>
+        <div class="columns large-1 left">
+            <a href="#"><img src="/static/bit ssl.jpg" style="width:80px;height:40px;"></a>
+        </div>
+        <div class="columns large-2 left">
+            <a href="#" style="text-align :center;"><img src="/static/Net banking icon.png" style="width:100px;height:40px;margin-left:15px;"></a>
+        </div>
+    </div>
+    <div class="row">
+        <hr>
+        <p style="text-align:center;"> Sign up for our newsletter and you could win exciting offers and shopping vochers!</p><br>
+        <div class="columns large-7 large-offset-1 left ">
+            <input type="text" placeholder="your email address">
+        </div>
+        <div class="columns large-4 left">
+             <a href="#" style="width: 250px;background-color: orangered;height: 38px;" class="button small">SUBSCRIBE</a>
+        </div>
+
+    </div>
+</footer>
+
+
+   </div>
+</body>
