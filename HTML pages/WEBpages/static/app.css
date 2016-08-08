@@ -1,7 +1,15 @@
+.dropdown menu{
+              margin-left: 236px;
+              }
+}
 .row{
 margin:0 0;
 width:100%;
 }
+.top-bar ul{
+               background-color: #eee;
+   margin-left: 248px;
+    }
 .menu-text{
           font-weight:normal;
           }
@@ -164,9 +172,9 @@ div.vertical-line{
 }
 
 #six{
-    margin-top:10px;
-    border:1px solid grey;
-    padding:25px;
+   margin-top: -1px;
+    border: 1px solid grey;
+    padding: 25px;
     }
 
 .pic{
@@ -177,56 +185,47 @@ div.vertical-line{
           text-align:center;
           font-size:15px;
           margin-left:65px;
-          top:100px;
-          color:white;
-          overflow:visible
-           }
-.imagetext1{
-          position:absolute;
-          text-align:center;
-          font-size:15px;
-          margin-left:65px;
-          top:100px;
+              top: 80px;
           color:white;
           overflow:visible
            }
 .imagetext2{
-          position:absolute;
-          text-align:center;
-          font-size:15px;
-          margin-left:65px;
-          top:100px;
-          color:white;
-          overflow:visible
+          position: absolute;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 41px;
+    top: 74px;
+    color: #fefefe;
+    overflow: visible;
            }
 .imagetext3{
-          position:absolute;
-          text-align:center;
-          font-size:15px;
-          margin-left:30px;
-          top:100px;
-          color:white;
-          overflow:visible
+          position: absolute;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 31px;
+    top: 69px;
+    color: white;
+    overflow: visible;
            }
 .imagetext4{
-          position:absolute;
-          text-align:center;
-          font-size:15px;
-          margin-left:45px;
-          top:100px;
-          color:white;
-          overflow:visible
+          position: absolute;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 41px;
+    top: 77px;
+    color: white;
+    overflow: visible;
            }
 #image1{
-       margin-left:120px;
-       margin-top:10px;
-       max-width=150%;
+          margin-left: -200px;
+    margin-top: 25px;
+}
        }
 
 
 #image2{
-       margin-left:10px;
-       margin-top:-15px;
+             margin-left: -292px;
+    margin-top: 26px;
        }
 h7{
    font-size:18px;
@@ -240,7 +239,7 @@ p{
   }
 #h-5{
     font-size:12px;
-    margin-left: 892px;
+       margin-left: 807px;
     }
 #testimonials{
              background-color:grey;
@@ -250,26 +249,59 @@ p{
                 margin-left: 23rem;
             }
 #image-1{
-        width:91.5%;
-        height: 149%;
-    margin-left: 70px;
+      width: 95.5%;
+    height: 270%;
+    margin-left: 54px;
         }
 #image-2{
-            max-width: 98%;
+          max-width: 101%;
         }
 #image-3{
-        max-width: 99%;
-    margin-left: -30px;
+     max-width: 101%;
+    margin-left: -27px;
         }
 #image-4{
-        max-width: 98%;
-    margin-top: 5px;
+         max-width: 101%;
+    margin-top: 2px;
         }
 #image-5{
-            max-width: 100%;
-    margin-left: -30px;
-    padding-top: 5px;
+             max-width: 101%;
+    margin-left: -27px;
+    padding-top: 2px;
         }
+#testimonial1{
+        max-width: 120%;
+    margin-left: -48px;
+           }
+#testimonial2{
+           max-width: 120%;
+           }
+#testimonial3{
+               max-width: 120%;
+    margin-left: 3rem;
+           }
+#testimonial4{
+                max-width: 120%;
+    margin-left: 6rem;
+           }
+#testimonial2-text{
+                  border: 1px solid white;
+    background-color: white;
+    width: 120%;
+    margin-left: 0%;
+                  }
+#testimonial3-text{
+      border: 1px solid white;
+    background-color: white;
+    width: 120%;
+    margin-left: 19.5%;
+                  }
+#testimonial4-text{
+       border: 1px solid white;
+    background-color: white;
+    width: 120%;
+    margin-left: 39%;
+}
 
 #PICS{
       {

@@ -20,63 +20,187 @@ hr{
   border-bottom:2px solid red;
 
   }
-
-.text-top .head1{
-    color: white;
-    font-size: 40px;
-position: absolute;
-   top: 230px;
-   width: 100%;
- text-align: center;
-
+ .head3{
+       text-align:center;
+       }
+#Box-1{
+          border: 2px solid #0c4d78;
+    margin-top: 8px;
+    margin-left: -100px;
+    width: 242px;
+    padding: 55px;
+    box-shadow: 0px 0px 2px 2px #777;
+     }
+#Box-2{  border: 2px solid #157539;
+    margin-top: 10px;
+    margin-left: -21px;
+    width: 284px;
+    padding: 36px;
+    box-shadow: 0px 0px 2px 2px #777;
+    }
+#Box-3{
+           border: 2px solid #ec5840;
+    margin-top: 10px;
+    margin-left: -21px;
+    width: 252px;
+    padding: 47px;
+    box-shadow: 0px 0px 2px 2px #777;
+     }
+#Box-4{
+          border: 2px solid #0c4d78;
+    margin-top: 6px;
+    margin-bottom: 0px;
+    margin-left: -21px;
+    width: 261px;
+    box-shadow: 0px 0px 2px 2px #777;
+    }
+#arrow-1{
+        margin-top: 103px;
+        }
+#arrow-2{
+        margin-top: 103px;
+        }
+#arrow-3{
+        margin-top: 103px;
+        }
+.nav1 {
+     width: 100%;
+    height: 75px;
+    background: #0a0a0a;
+    margin: 20px -2px;
+    padding-top: 1px;
+    padding-left: 343px;
 }
+#section{
+        background-color:grey;
+        }
+#section1{
+            width: 17%;
+    margin-left: 223px;
+    padding-bottom: 47px;
+         }
+.head-5{
+        font-size: 16px;
+    padding-left: 431px
+        }
 
-.text-top .head2{
-    color: white;
-    font-size: 15px;
-position: absolute;
-   top: 290px;
-   width: 100%;
- text-align: center;
+.hr2{
+        width: 106rem;
+    border-bottom: 1px solid #0a0a0a;
+    margin-left: -251px;
+     }
+.hr1{
+     max-width: 150rem;
+    border-bottom: 1px solid #0a0a0a;
+     }
+h-7{
+      color: red;
+      margin-left: 420px;
+    font-size: 18px;
+   }
+#image-6{
+      width: 95.5%;
+    height: 270%;
+    margin-left: 54px;
+        }
+#image-7{
+          max-width: 101%;
+        }
+#image-8{
+     max-width: 101%;
+    margin-left: -27px;
+        }
+#image-9{
+         max-width: 101%;
+    margin-top: 2px;
+        }
+#image-10{
+             max-width: 101%;
+    margin-left: -27px;
+    padding-top: 2px;
+        }#testimonial1{
+        max-width: 120%;
+    margin-left: -48px;
+           }
 
+
+
+
+
+
+
+
+
+
+
+
+
+.small-5{
+         width: 41.66667%;
+    margin-left: 470px;
+         }
+#image1{
+       margin-left: -198px;
+    margin-top: 10px;
+       max-width=150%;
+       }
+#image2{
+       margin-left:10px;
+       margin-top:-15px;
+       }
+#image-1{
+      width: 95.5%;
+    height: 270%;
+    margin-left: 54px;
+        }
+#image-2{
+          max-width: 101%;
+        }
+#image-3{
+     max-width: 101%;
+    margin-left: -27px;
+        }
+#image-4{
+         max-width: 101%;
+    margin-top: 2px;
+        }
+#image-5{
+             max-width: 101%;
+    margin-left: -27px;
+    padding-top: 2px;
+        }#testimonial1{
+        max-width: 120%;
+    margin-left: -48px;
+           }
+#testimonial2{
+           max-width: 120%;
+           }
+#testimonial3{
+               max-width: 120%;
+    margin-left: 3rem;
+           }
+#testimonial4{
+                max-width: 120%;
+    margin-left: 6rem;
+           }
+#testimonial2-text{
+                  border: 1px solid white;
+    background-color: white;
+    width: 120%;
+    margin-left: 0%;
+                  }
+#testimonial3-text{
+      border: 1px solid white;
+    background-color: white;
+    width: 120%;
+    margin-left: 19.5%;
+                  }
+#testimonial4-text{
+       border: 1px solid white;
+    background-color: white;
+    width: 120%;
+    margin-left: 39%;
 }
-
-.text-top .head3{
-    color: white;
-position: absolute;
-   top: 380px;
-   width: 100%;
- text-align: center;
-
-}
-.text-top .head4{
-    text-align: center;
-position: absolute;
-   top: 500px;
-    background-color: #ff0000;
-    border: none;
-    color: white;
-    padding: 8px 6px;
-    font-size: 10px;
-    margin: 25px 600px;
-}
-
-.text-top .head5{
-position: absolute;
-   top: 550px;
-    border: none;
-    color: white;
-    padding: 10px 60px;
-    font-size: 12px;
-display : block;
-float:left;
-list-style:none;
-margin:20px 350px;
-
-}
-
-
-
 .head4{
     background-color: #ff0000;
     border: none;
@@ -173,9 +297,9 @@ div.vertical-line{
 }
 
 #six{
-    margin-top:10px;
-    border:1px solid grey;
-    padding:25px;
+    margin-top: -1px;
+    border: 1px solid grey;
+    padding: 25px;
     }
 
 .pic{
@@ -186,57 +310,41 @@ div.vertical-line{
           text-align:center;
           font-size:15px;
           margin-left:65px;
-          top:100px;
-          color:white;
-          overflow:visible
-           }
-.imagetext1{
-          position:absolute;
-          text-align:center;
-          font-size:15px;
-          margin-left:65px;
-          top:100px;
+              top: 80px;
           color:white;
           overflow:visible
            }
 .imagetext2{
-          position:absolute;
-          text-align:center;
-          font-size:15px;
-          margin-left:65px;
-          top:100px;
-          color:white;
-          overflow:visible
+         position: absolute;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 41px;
+    top: 74px;
+    color: #fefefe;
+    overflow: visible;
            }
 .imagetext3{
-          position:absolute;
-          text-align:center;
-          font-size:15px;
-          margin-left:30px;
-          top:100px;
-          color:white;
-          overflow:visible
+          position: absolute;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 31px;
+    top: 69px;
+    color: white;
+    overflow: visible;
            }
 .imagetext4{
-          position:absolute;
-          text-align:center;
-          font-size:15px;
-          margin-left:45px;
-          top:100px;
-          color:white;
-          overflow:visible
+         position: absolute;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 41px;
+    top: 77px;
+    color: white;
+    overflow: visible;
            }
-#image1{
-       margin-left:120px;
-       margin-top:10px;
-       max-width=150%;
-       }
 
 
-#image2{
-       margin-left:10px;
-       margin-top:-15px;
-       }
+
+
 h7{
    font-size:18px;
    margin-left:160px;
@@ -273,8 +381,15 @@ p1{
 
     }
 #visa{
-max-width:50%
+max-width: 57rem;
+    margin-left: auto;
+    margin-right: auto;
     }
+#block{
+         max-width: 106rem;
+    margin-left: auto;
+    margin-right: auto;
+      }
 .footer{
        color:black;
        background:#F5F5DC; }
